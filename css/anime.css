@@ -1,0 +1,36 @@
+.anime.course-infor{
+    transform: scale(.7);
+    opacity: 0;
+    transition: 1s;
+}
+
+.anime.show-animate p{
+    transform: translateY(0);
+    opacity: 1;
+}
+.anime.show-animate  p{
+    transform: translateY(-10px);
+}
+
+.anime .destaque-infor, .active-inf{
+    transform: scale(.7);
+    opacity: 0;
+    transition: 1s;
+}
+.anime.show-animate .destaque-infor, .anime.show-animate .active-inf{
+    transform: scale(1);
+    opacity: 1;
+}
+.anime .news-content{
+    transform:  translateX(-50%);
+    opacity: 0;
+    transition: transform 1s, opacity 1s;
+}
+.anime.show-animate .news-content{
+    transform:  translateX(0);
+    opacity: 1;
+}
+.anime .segundo{
+    transform:  translateX(50%);
+    transition: transform 1s, opacity 1s;
+}
